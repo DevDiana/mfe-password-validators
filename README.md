@@ -6,6 +6,8 @@
 
 Este é um projeto que implementa um validador de senha em conformidade com determinadas definições de validade. O projeto utiliza Single SPA Angular 15 para criar um aplicativo de página única (SPA) modular.
 
+A criação de senhas seguras é uma parte crucial da segurança da informação. No entanto, muitos sistemas não possuem critérios claros de validação de senha, o que pode resultar em senhas fracas e vulneráveis a ataques de hackers. Este projeto tem como objetivo oferecer uma solução eficiente para validar senhas de acordo com critérios específicos de segurança.
+
 ## Requisitos
 
 - Node.js
