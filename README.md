@@ -1,3 +1,7 @@
+
+![image](https://github.com/DevDiana/mfe-password-validators/assets/63608845/53869096-5188-4554-acee-d51b52e3e930)
+
+
 # Validador de Senha em Single SPA Angular 15
 
 Este é um projeto que implementa um validador de senha em conformidade com determinadas definições de validade. O projeto utiliza Single SPA Angular 15 para criar um aplicativo de página única (SPA) modular.
