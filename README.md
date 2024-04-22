@@ -25,7 +25,7 @@ Este é um projeto que implementa um validador de senha em conformidade com dete
 3. Clone este repositório para o seu ambiente local. Você pode cloná-lo usando o Git com o seguinte comando:
 
     ```
-    git clone https://github.com/seuusuario/nome-do-repositorio.git
+    git clone https://github.com/DevDiana/mfe-password-validators.git
     ```
 
     Ou você pode baixar o repositório como um arquivo ZIP e extraí-lo manualmente.
@@ -33,7 +33,7 @@ Este é um projeto que implementa um validador de senha em conformidade com dete
 4. Navegue até o diretório do projeto:
 
     ```
-    cd nome-do-repositorio
+    cd mfe-password-validators
     ```
 
 5. Instale as dependências do projeto executando o seguinte comando:
