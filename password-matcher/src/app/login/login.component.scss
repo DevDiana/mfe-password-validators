@@ -1,0 +1,25 @@
+.form-container {
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.password-requirements {
+  list-style-type: none;
+  padding: 0;
+}
+
+.password-requirements li {
+  margin-bottom: 5px;
+}
+
+.password-requirements .valid {
+  color: green;
+}
+.text-orange {
+  color: #ff7900;
+}
+
+.btn-orange {
+  background-color: #ff7900;
+  color: #ffffff;
+}

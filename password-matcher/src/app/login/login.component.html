@@ -1,0 +1,44 @@
+<div class="d-flex align-items-center justify-content-center py-4 h-100">
+  <main class="w-100 m-auto form-container">
+    <form (ngSubmit)="handleSubmit($event)" class="login-form p-4">
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-3 fw-normal text-orange">Bem-vindo ao Itaú</h1>
+      </div>
+      <div class="form-floating mb-4">
+        <input
+          type="email"
+          class="form-control"
+          id="emailInput"
+          placeholder="your-email@gmail.com"
+        />
+        <label for="emailInput">E-mail</label>
+      </div>
+      <div
+        class="form-floating pt-2 mb-4"
+        (focusin)="showPasswordRequirements = true"
+      >
+        <input
+          class="form-control"
+          id="passwordInput"
+          type="text"
+          [(ngModel)]="password"
+          (input)="handleChange($event)"
+          [ngModelOptions]="{ standalone: true }"
+        />
+        <label for="passwordInput">Senha</label>
+        <ul class="password-requirements" *ngIf="showPasswordRequirements">
+          <li [class.valid]="hasUpper">Ao menos 1 letra maiúscula</li>
+          <li [class.valid]="hasLower">Ao menos 1 letra minúscula</li>
+          <li [class.valid]="hasNumber">Ao menos 1 dígito</li>
+          <li [class.valid]="hasSpecial">
+            Ao menos 1 caractere especial (!#$%^&*()-+)
+          </li>
+          <li [class.valid]="hasNineChars">Nove ou mais caracteres</li>
+          <li [class.valid]="hasNoRepeat">Não possuir caracteres repetidos</li>
+          <li [class.valid]="hasNoSpace">Não possuir espaços</li>
+        </ul>
+      </div>
+      <button class="btn w-100 py-2 mb-4 btn-orange">Entrar</button>
+    </form>
+  </main>
+</div>
